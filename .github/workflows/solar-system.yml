@@ -91,6 +91,6 @@
             --env MONGO_USERNAME=${{ env.MONGO_USERNAME}} \
             --env MONGO_PASSWORD=${{ env.MONGO_PASSWORD}}
           set -e
-         echo "kubectl returned $?"
-         kubectl -n default get pod
-         sleep 10
+          echo "kubectl returned $?"
+          kubectl -n default get pod
+          sleep 10
